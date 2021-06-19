@@ -24,6 +24,7 @@
 		0138C770266E73220005808E /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0138C76F266E73220005808E /* CoinRowView.swift */; };
 		0138C772266E73840005808E /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0138C771266E73840005808E /* PreviewProvider.swift */; };
 		015D8040267940B9001F7BF2 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D803F267940B9001F7BF2 /* CoinDataService.swift */; };
+		0193CA9E267E793800A16D49 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0193CA9D267E793800A16D49 /* NetworkingManager.swift */; };
 		01BEF1B126681D0300D46B81 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEF1B026681D0300D46B81 /* CoinModel.swift */; };
 		01BEF1B42668283600D46B81 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEF1B32668283600D46B81 /* Color.swift */; };
 		01BEF1BA26682A3600D46B81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEF1B926682A3600D46B81 /* HomeView.swift */; };
@@ -74,6 +75,7 @@
 		0138C76F266E73220005808E /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		0138C771266E73840005808E /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PreviewProvider.swift; path = ../../../../Documents/PreviewProvider.swift; sourceTree = "<group>"; };
 		015D803F267940B9001F7BF2 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		0193CA9D267E793800A16D49 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		01BEF1B026681D0300D46B81 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		01BEF1B32668283600D46B81 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		01BEF1B926682A3600D46B81 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				01158D10265E573200036BAA /* CryptoWidgApp.swift */,
+				0193CA9C267E790900A16D49 /* Utilities */,
 				01BEF1B22668282900D46B81 /* Extensions */,
 				015D803E26794092001F7BF2 /* Services */,
 				01BEF1B5266829F300D46B81 /* Core */,
@@ -175,6 +178,14 @@
 				015D803F267940B9001F7BF2 /* CoinDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		0193CA9C267E790900A16D49 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0193CA9D267E793800A16D49 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		01BEF1AF26681CDD00D46B81 /* Models */ = {
@@ -368,6 +379,7 @@
 				01158D11265E573200036BAA /* CryptoWidgApp.swift in Sources */,
 				01D076F9266EBD99009C19DD /* Double.swift in Sources */,
 				0138C772266E73840005808E /* PreviewProvider.swift in Sources */,
+				0193CA9E267E793800A16D49 /* NetworkingManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
