@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010B49882680ECB300740D56 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010B49872680ECB300740D56 /* LocalFileManager.swift */; };
 		01158D11265E573200036BAA /* CryptoWidgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01158D10265E573200036BAA /* CryptoWidgApp.swift */; };
 		01158D13265E573200036BAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01158D12265E573200036BAA /* ContentView.swift */; };
 		01158D15265E573400036BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01158D14265E573400036BAA /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		010B49872680ECB300740D56 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		01158D0D265E573200036BAA /* CryptoWidg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoWidg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01158D10265E573200036BAA /* CryptoWidgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWidgApp.swift; sourceTree = "<group>"; };
 		01158D12265E573200036BAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				0193CA9D267E793800A16D49 /* NetworkingManager.swift */,
+				010B49872680ECB300740D56 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				0193CAA5267E88BB00A16D49 /* CoinImageViewModel.swift in Sources */,
 				01D076FB267020B9009C19DD /* HomeViewModel.swift in Sources */,
 				01BEF1B42668283600D46B81 /* Color.swift in Sources */,
+				010B49882680ECB300740D56 /* LocalFileManager.swift in Sources */,
 				01158D11265E573200036BAA /* CryptoWidgApp.swift in Sources */,
 				0193CAA1267E801A00A16D49 /* CoinImageView.swift in Sources */,
 				01D076F9266EBD99009C19DD /* Double.swift in Sources */,
